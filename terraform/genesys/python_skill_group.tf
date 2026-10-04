@@ -8,23 +8,23 @@ resource "genesyscloud_routing_skill_group" "python_skill_group" {
           "routingSkill" : "Python",
           "comparator" : "GreaterThan",
           "proficiency" : 2
-          "childConditions": [
+          "childConditions" : [
             {
-                "routingSkillConditions": [
-                    {
-                        "routingSkill": genesyscloud_routing_skill.python_backend_engineer_skill.name
-                        "comparator": "GreaterThan", 
-                        "proficiency": 1
-                    }
-                ], 
-                "operation" : "And", 
-                "languageSkillConditions": []
+              "routingSkillConditions" : [
+                {
+                  "routingSkill" : genesyscloud_routing_skill.python_backend_engineer_skill.name
+                  "comparator" : "GreaterThan",
+                  "proficiency" : 1
+                }
+              ],
+              "operation" : "And",
+              "languageSkillConditions" : []
             }
           ]
         }
       ],
-      "operation" : "And", 
-      "languageSkillConditions": []
+      "operation" : "And",
+      "languageSkillConditions" : []
     }
   ])
 }
