@@ -1,0 +1,17 @@
+2026-10-04T07:28:36.373Z: [DEBUG] - Parameter 'loggingCallback' in ''ArchLogging'.setLoggingCallback' Logging callback hook successfully set.
+2026-10-04T07:28:36.375Z: [ERROR] setting the Archy exit code to 107
+2026-10-04T07:28:36.375Z: [ERROR] An error occurred.
+2026-10-04T07:28:36.375Z: [INFO] 
+2026-10-04T07:28:36.375Z: [ERROR] the parameter '--flowname' is not valid for use with the 'export' command. You can see more information about the 'export' command by running 'archy export --help'.
+2026-10-04T07:28:36.375Z: [INFO] 
+2026-10-04T07:28:36.375Z: [ERROR] Error(s) encountered.
+2026-10-04T07:28:36.375Z: [INFO] 
+2026-10-04T07:28:36.375Z: [INFO] using 'C:\Users\Justin\Desktop\genesys-automation\architect' as the home directory since none was defined.
+2026-10-04T07:28:36.375Z: [INFO] Log:  C:\Users\Justin\Desktop\genesys-automation\architect\debug\archy-debug-2026-10-04T07.28.36.253Z.txt
+2026-10-04T07:28:36.636Z: [INFO] execution complete.
+2026-10-04T07:28:36.636Z: [ERROR] 
+2026-10-04T07:28:36.636Z: [ERROR] exit code: 107
+2026-10-04T07:28:36.637Z: [INFO] 
+2026-10-04T07:28:36.637Z: [DEBUG] ensureDirectoryExists - attempting to make the directory 'C:\Users\Justin\Desktop\genesys-automation\architect\debug'.
+2026-10-04T07:28:36.637Z: [DEBUG] ensureDirectoryExists - directory 'C:\Users\Justin\Desktop\genesys-automation\architect\debug' successfully created.
+2026-10-04T07:28:36.637Z: [DEBUG] Writing log contents to 'C:\Users\Justin\Desktop\genesys-automation\architect\debug\archy-debug-2026-10-04T07.28.36.253Z.txt'.

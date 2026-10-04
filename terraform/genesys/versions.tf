@@ -7,4 +7,12 @@ terraform {
       version = "1.86.1"
     }
   }
+  cloud {
+    organization = "justin-genesys-automation"
+
+    workspaces {
+      name = "genesys-automation-dev"
+    }
+  }
+
 }
