@@ -10,9 +10,6 @@ jobs:
     runs-on: ubuntu-latest
 
     env:
-      GENESYSCLOUD_OAUTHCLIENT_ID: ${{ secrets.GENESYSCLOUD_OAUTHCLIENT_ID }}
-      GENESYSCLOUD_OAUTHCLIENT_SECRET: ${{ secrets.GENESYSCLOUD_OAUTHCLIENT_SECRET }}
-      GENESYSCLOUD_REGION: ${{ secrets.GENESYSCLOUD_REGION }}
       TF_TOKEN_app_terraform_io: ${{ secrets.TF_TOKEN_app_terraform_io }}
 
     defaults:
