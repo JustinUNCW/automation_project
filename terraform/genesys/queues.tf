@@ -5,3 +5,7 @@ resource "genesyscloud_routing_queue" "tech_support_queue" {
 resource "genesyscloud_routing_queue" "tech_support_queues" {
   name = "python-queue"
 }
+
+resource "genesyscloud_routing_queue" "tech_support_queuess" {
+  name = "java-queue"
+}
