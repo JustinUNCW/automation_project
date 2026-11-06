@@ -9,3 +9,7 @@ resource "genesyscloud_routing_queue" "tech_support_queues" {
 resource "genesyscloud_routing_queue" "tech_support_queuess" {
   name = "java-queue"
 }
+
+resource "genesyscloud_routing_queue" "tech_support_queuesss" {
+  name = "javascript-queue"
+}
